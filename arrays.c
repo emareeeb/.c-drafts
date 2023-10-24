@@ -34,5 +34,28 @@ int main() {
     for(int a=0; a<5; a++){
         printf("%d ",numbers[a]);         //prints 5 6 7 8 9 ---> PERFECT!
     }
+
+    printf("\n\n");
+
+    /*MULTI-DIMENSIONAL ARRAY*/
+    /* lets have a matrix like this :
+        5 7 9
+        4 5 6
+    */
+
+    int matrix[2][3] = { {5,7,9} , {4,5,6}};         //the first input is the rows and the second is column.
+
+    //lets now print the matrix elements :
+
+    int x,y;
+    for(x=0; x<2; x++){
+        for(y=0; y<3; y++){
+            printf("%d\n", matrix[x][y]);
+        }
+        printf("\n");             // enaling this will print space after every rowg
+    }
+
+
+
 }
 
