@@ -19,7 +19,8 @@ int main() {
     printf("\n\n");
     
     
-    //for loop : for(initialization ; condition ; incre/decrement)
+    //for loop : 
+    // for(initialization ; condition ; incre/decrement) 
     for(int x = 0; x <= 10; x++){
         printf("%d",x);
     }
