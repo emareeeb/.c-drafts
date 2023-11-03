@@ -20,7 +20,7 @@ int main() {
     
     
     //for loop : 
-    // for(initialization ; condition ; incre/decrement) 
+    // for(initialization ; condition ; increment/decrement)                                     // ; is used! ofc not :
     for(int x = 0; x <= 10; x++){
         printf("%d",x);
     }
