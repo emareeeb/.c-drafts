@@ -7,7 +7,7 @@ int main() {
     int numArray[] = {10,20,30,40,50}; //CANNOT print the elements of array directly like a variable, NEED TO USE LOOPS and print elements one by one.
     for(int i=0; i<5 ; i++){
         printf("%d\n",numArray[i]);
-    // printf("%d ", numArray[i]); this would be horizontal representation
+    // printf("%d ", numArray[i]); this would be horizontal representation of the array getting printed.
     }
     
     printf("\n\n");
